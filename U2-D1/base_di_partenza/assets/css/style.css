@@ -211,10 +211,13 @@ footer a {
 }
 
 @media screen and (min-width: 768px ) {
+    body{
+        padding: 15px 65px 15px 65px;
+    }
     header{
         display: inline-flex;
         width: 100%;
-        padding: 15px;
+        padding: 15px 15px 2px 15px;
                 
     }
     header div{
@@ -224,14 +227,55 @@ footer a {
     }
     header div p{
         padding-top: 15px;
+        font-size: 1.5rem;
+        
     }
     header nav{
         width: 30%; 
         text-align: right;
+        font-size: 1.5rem;
     }
     #menu {
         padding-top: 15px;
     }
-    
-    
+    article{
+        line-height: 3rem;
+    }
+    article h1{
+        font-size: 4.5rem;
+    }
+    article h2{
+        font-size: 2rem;
+        font-weight: bold;
+        
+    }
+    article p, ul,ol{
+        font-size: 1.6rem;
+        
+    }
+    table{
+        margin-inline: auto;
+        text-align: center;
+        border-collapse: collapse;
+        width: 80%;
+        margin-top: 60px;
+        margin-bottom: 60px;
+        
+    }
+    .inframe{
+        display: inline-block;
+        width: 35rem;
+        height: 220px;
+        margin: 0;
+    }
+    section{
+        display: inline-block;
+        width: 35rem;
+        height: 220px;
+        margin: 0;
+        
+        
+    }
+
+    }
 }
