@@ -264,15 +264,19 @@ footer a {
     }
     .inframe{
         display: inline-block;
-        width: 35rem;
+        width: 38rem;
         height: 220px;
-        margin: 0;
+        vertical-align: middle;
+        
+        
     }
     section{
         display: inline-block;
-        width: 35rem;
+        width: 38rem;
         height: 220px;
-        margin: 0;
+        vertical-align: middle;
+        border-radius: 20px;
+        
         
         
     }
